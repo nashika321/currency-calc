@@ -8,7 +8,7 @@ if Choice1 == "JPY":
   GBP = (JPY * 0.0068)
   USD = (JPY * 0.008)
   EUR = (JPY * 0.0081)
-  KRW = (HGD * 0.878504)
+  HGD = (HGD * 0.878504)
   Choice2 = input("Do you want that in GBP, USD, EUR or KRW?")
 
   if Choice2 == "GBP":
