@@ -9,7 +9,7 @@ if Choice1 == "JPY":
   USD = (JPY * 0.008)
   EUR = (JPY * 0.0081)
   HGD = (HGD * 0.878504)
-  Choice2 = input("Do you want that in GBP, USD, EUR or KRW?")
+  Choice2 = input("Do you want that in GBP, USD, EUR or HGD?")
 
   if Choice2 == "GBP":
     print ("¥",JPY, "is equal to:")
@@ -35,7 +35,7 @@ elif Choice1 == "GBP":
   USD = (GBP * 1.29)
   EUR = (GBP * 1.19)
   KRW = (GBP * 128.137)
-  Choice2 = input("Do you want that in JPY, USD, EUR or KRW?")
+  Choice2 = input("Do you want that in JPY, USD, EUR or HGD")
 
   if Choice2 == "JPY":
     print ("£",GBP, "is equal to:")
@@ -61,7 +61,7 @@ elif Choice1 == "USD":
   GBP = (USD * 0.78)
   EUR = (USD * 0.92)
   HGD = (USD * 96.25330)
-  Choice2 = input("Do you want that in JPY, GBP, EUR or KRW?")
+  Choice2 = input("Do you want that in JPY, GBP, EUR or HGD?")
 
   if Choice2 == "JPY":
     print ("$",USD, "is equal to:")
@@ -87,7 +87,7 @@ elif Choice1 == "EUR":
   GBP = (EUR * 0.84)
   USD = (EUR * 1.09)
   HGD = (EUR * 107.274)
-  Choice2 = input("Do you want that in JPY, GBP, USD or KRW?")
+  Choice2 = input("Do you want that in JPY, GBP, USD or HGD?")
 
   if Choice2 == "JPY":
     print ("€",EUR, "is equal to:")
