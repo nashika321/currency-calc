@@ -12,3 +12,4 @@
 1. - [x] Pick the countries I for sure want to use
 1. - [x] Double check that the calculator is providing the right conversion
 1. - [x] Finalize the currency calculator
+Done
